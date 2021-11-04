@@ -1,0 +1,75 @@
+html{
+    font-family:  sans-serif;
+}
+
+header{
+    background-color: white;
+    box-shadow: 0 8px 6px -6px black;s
+    height: 69px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+}
+header a,h1{
+    color: black;
+    text-decoration: none;
+    margin: 0 20px;
+}
+#statment{
+    font-size: 50px;
+    margin: 200px auto;
+}
+#statment span{
+    color: blue;
+}
+.portraits{
+    display: grid;
+    grid-template: repeat(2, 1fr)/repeat(5, 1fr);
+    gap: 25px 25px;
+}
+#team{
+    text-align: center;
+}
+h2{
+    font-size: 50px;
+}
+#team img{
+    object-fit: cover;
+}
+.portrait{
+    max-width: 250px;
+    justify-self: stretch;
+    align-self: stretch;
+}
+.small{
+    max-height: 385px;
+}
+.big{
+    grid-row-end: span 3;
+    max-height: 825px;
+}
+#products{
+    text-align: center;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.product{
+    width: 30%;
+    text-align: center;
+}
+#products img{
+    max-height: 250px;
+    max-width: 500px;
+    object-fit: cover;
+}
+footer{
+    background-color: blue;
+    height: 50px;
+}
